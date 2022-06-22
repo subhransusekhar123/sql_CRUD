@@ -1,5 +1,4 @@
 const express=require("express");
-// const connection=require("./sql")
 const router=require("./router/router")
 const {postdata,getdata,updatedata,deletedata}=require("./controller/mysql")
 const app =express()
